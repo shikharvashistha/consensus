@@ -1,0 +1,21 @@
+{
+  "name": "tsld",
+  "version": "0.0.1",
+  "author": "Shikhar Vashistha",
+  "description": "The Consensus Algorithms",
+  "license": "MIT",
+  "url": "https://github.com/shikharvashistha/consensus",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shikharvashistha/consensus.git"
+  },
+  "devDependencies": {
+    "jslint": "0.1.9",
+    "mocha-phantomjs": "^3.1.2",
+    "uglify-js": ">= 1.3.4"
+  },
+  "scripts": {
+    "test": "make test",
+    "start": "make run"
+  }
+}
